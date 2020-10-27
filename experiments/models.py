@@ -35,7 +35,6 @@ def get_backend():
     return BACKEND
 
 
-@python_2_unicode_compatible
 class Experiment(ClusterableModel):
     STATUS_CHOICES = [
         ('draft', "Draft"),
